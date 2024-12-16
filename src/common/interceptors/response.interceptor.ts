@@ -8,7 +8,7 @@ import { plainToInstance } from 'class-transformer'
 import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 
-import { RESPONSE_DTO_KEY } from '../decarators/response.decarator'
+import { RESPONSE_DTO_KEY } from '../decorators/response.decorator'
 
 @Injectable()
 export class TransformResponseInterceptor implements NestInterceptor {

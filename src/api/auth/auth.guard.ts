@@ -11,7 +11,7 @@ import { Request } from 'express'
 
 import { AuthService } from 'src/api/auth/auth.service'
 
-import { IS_PUBLIC_KEY } from 'src/common/decarators/public.decarator'
+import { IS_PUBLIC_KEY } from 'src/common/decorators/public.decorator'
 import { ErrorMessage } from 'src/constants/errors'
 
 @Injectable()

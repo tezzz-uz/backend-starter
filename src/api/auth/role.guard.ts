@@ -7,7 +7,7 @@ import {
 import { Reflector } from '@nestjs/core'
 import { Observable } from 'rxjs'
 
-import { IS_PUBLIC_KEY } from 'src/common/decarators/public.decarator'
+import { IS_PUBLIC_KEY } from 'src/common/decorators/public.decorator'
 import { ROLES_KEY } from 'src/common/decarators/role.decarator'
 import { Role } from 'src/common/enums/role.enum'
 

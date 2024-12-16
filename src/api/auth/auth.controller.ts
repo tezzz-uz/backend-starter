@@ -12,8 +12,8 @@ import { ApiTags } from '@nestjs/swagger'
 import { EmailService } from 'src/services/email.service'
 import { SmsService } from 'src/services/sms.service'
 
-import { Public } from 'src/common/decarators/public.decarator'
-import { ResponseDTO } from 'src/common/decarators/response.decarator'
+import { Public } from 'src/common/decorators/public.decorator'
+import { ResponseDTO } from 'src/common/decorators/response.decorator'
 import { ErrorMessage } from 'src/constants/errors'
 
 import { AuthService } from './auth.service'
